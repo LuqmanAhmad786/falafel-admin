@@ -1,0 +1,22 @@
+{
+    "name": "quickshiftin/postmates-client",
+    "description": "Client library for Postmates On Demand Logistics",
+    "require": {
+        "guzzlehttp/guzzle": "^6.2.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nathan Nobbe",
+            "email": "quickshiftin@gmail.com",
+            "homepage": "https://quickshiftin.com",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Postmates\\": "src/"
+        }
+    }
+}

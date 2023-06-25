@@ -1,0 +1,33 @@
+{
+  "name": "alvee/worldpay",
+  "type": "library",
+  "description": "WorldPay's PHP SDK for REST APIs",
+  "keywords": [
+    "alvee",
+    "worldPay",
+    "laravel",
+    "payments",
+    "rest",
+    "sdk"
+  ],
+  "homepage": "https://github.com/Sheikh-Alvee/laravel-worldpay",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Imran Saleem",
+      "email": "imran.sheikh834@gmail.com",
+      "homepage": "https://github.com/Sheikh-Alvee",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "~5.6|~7.0",
+    "illuminate/support": "~5.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Alvee\\WorldPay\\": "src/"
+    }
+  },
+  "minimum-stability": "dev"
+}
